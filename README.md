@@ -5,7 +5,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=KIVY)
 
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://kivy.org/doc/stable/) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=google)](https://github.com/VILHALVA/CURSO-DE-PYTHON)
+[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PYTHON)
 <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLsMpSZTgkF5AV1FmALMgW8W-TvrfR3nrs&si=s_Ry13XMexk6nFdS)
@@ -46,3 +46,30 @@ if __name__ == '__main__':
 ```
 
 Este código cria um aplicativo Kivy com uma janela contendo um único botão que exibe o texto "Olá, Kivy!". Você pode expandir esse exemplo para construir interfaces mais complexas e interativas. 
+
+# CARACTERÍSTICAS:
+## POSITIVAS:
+- **Multiplataforma:** O Kivy é uma framework Python multiplataforma, oferecendo suporte para Windows, macOS, Linux, Android e iOS.
+
+- **Interface Declarativa:** Utiliza uma linguagem de marcação declarativa chamada KV Language para definir a interface do usuário, o que simplifica o design e a manutenção do código.
+
+- **Gráficos e Animações:** Oferece recursos gráficos avançados e suporte integrado para animações, proporcionando uma experiência visual atraente.
+
+- **Toque e Gestos:** Projetado com dispositivos de toque em mente, facilitando a implementação de interfaces amigáveis para dispositivos móveis.
+
+- **Código Aberto:** Kivy é uma framework de código aberto, permitindo que os desenvolvedores acessem e modifiquem o código-fonte de acordo com suas necessidades.
+
+- **Comunidade Ativa:** Possui uma comunidade ativa que contribui para o desenvolvimento contínuo da framework, além de fornecer suporte e recursos adicionais.
+
+## NEGATIVAS:
+- **Curva de Aprendizado:** Para desenvolvedores iniciantes, a curva de aprendizado pode ser íngreme, especialmente ao se acostumar com a KV Language.
+
+- **Aparência Padrão:** A aparência padrão das interfaces Kivy pode parecer menos nativa em comparação com as interfaces específicas de plataforma.
+
+- **Menos Adoção Empresarial:** Em comparação com algumas tecnologias mais estabelecidas, Kivy pode ter uma adoção menor em ambientes empresariais.
+
+- **Documentação Varieda:** A documentação pode ser variada em termos de detalhes e profundidade, o que pode exigir alguma exploração adicional.
+
+- **Desempenho:** Para certos casos de uso intensivo de gráficos, o desempenho pode ser uma consideração, especialmente em comparação com tecnologias nativas.
+
+- **Ecossistema Menos Maduro:** Comparado a algumas alternativas mais antigas, o ecossistema Kivy pode ser considerado menos maduro em termos de ferramentas de terceiros e integrações.

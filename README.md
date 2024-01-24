@@ -2,17 +2,9 @@
 👨‍⚖️KIVY É UM FRAMEWORK PYTHON DE CÓDIGO ABERTO USADO PARA DESENVOLVIMENTO DE APLICATIVOS MULTIPLATAFORMA, INCLUINDO ANDROID, IOS, WINDOWS, LINUX E OUTROS. ELE PERMITE CRIAR INTERFACES DE USUÁRIO INTERATIVAS E ATRATIVAS USANDO A LINGUAGEM PYTHON. 
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=KIVY)
-
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://kivy.org/doc/stable/) 
 [![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PYTHON)
-<br>
-
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLsMpSZTgkF5AV1FmALMgW8W-TvrfR3nrs&si=s_Ry13XMexk6nFdS)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Kivy_logo.png" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
 
 # CONCEITO:
 Kivy é um framework de código aberto em Python para o desenvolvimento de aplicativos multi-touch. Ele é projetado para ser multiplataforma, o que significa que você pode criar aplicativos que funcionam em dispositivos com diferentes sistemas operacionais, como Android, iOS, Windows, Linux e macOS.

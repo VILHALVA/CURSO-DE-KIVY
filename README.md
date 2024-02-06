@@ -1,12 +1,9 @@
 # CURSO DE KIVY
 👨‍⚖️KIVY É UM FRAMEWORK PYTHON DE CÓDIGO ABERTO USADO PARA DESENVOLVIMENTO DE APLICATIVOS MULTIPLATAFORMA, INCLUINDO ANDROID, IOS, WINDOWS, LINUX E OUTROS. ELE PERMITE CRIAR INTERFACES DE USUÁRIO INTERATIVAS E ATRATIVAS USANDO A LINGUAGEM PYTHON. 
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://kivy.org/doc/stable/) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PYTHON)
-[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLsMpSZTgkF5AV1FmALMgW8W-TvrfR3nrs&si=s_Ry13XMexk6nFdS)
+<img src="FOTO.png" align="center" width="400"> <br>
 
-# CONCEITO:
+## CONCEITO:
 Kivy é um framework de código aberto em Python para o desenvolvimento de aplicativos multi-touch. Ele é projetado para ser multiplataforma, o que significa que você pode criar aplicativos que funcionam em dispositivos com diferentes sistemas operacionais, como Android, iOS, Windows, Linux e macOS.
 
 A principal característica do Kivy é a sua capacidade de criar interfaces de usuário interativas e agradáveis, especialmente em dispositivos com telas sensíveis ao toque. Ele oferece uma abstração eficiente para lidar com entrada multi-touch, gestos e outros recursos específicos de dispositivos móveis.
@@ -23,24 +20,29 @@ Principais conceitos do Kivy:
 
 5. **Event Handling:** Kivy permite lidar com eventos de entrada, como toques, cliques e gestos, para criar interações intuitivas.
 
-Aqui está um exemplo simples de código Kivy para criar uma aplicação com um botão:
+## SUA HISTÓRIA:
+1. **Origens (2011)**:
+   - O Kivy foi lançado por Mathieu Virbel em 2011 como um projeto de código aberto.
+   - A motivação por trás do Kivy era fornecer uma estrutura para desenvolvimento de aplicativos que fosse multiplataforma, permitindo que os desenvolvedores criassem interfaces de usuário gráficas usando Python para várias plataformas, incluindo desktops, dispositivos móveis e dispositivos embarcados.
 
-```python
-from kivy.app import App
-from kivy.uix.button import Button
+2. **Filosofia e Design**:
+   - O Kivy foi projetado com uma filosofia de simplicidade, flexibilidade e velocidade.
+   - Ele se concentra em oferecer uma API fácil de aprender e usar, permitindo que os desenvolvedores criem aplicativos complexos com uma curva de aprendizado baixa.
 
-class MyApp(App):
-    def build(self):
-        return Button(text='Olá, Kivy!')
+3. **Lançamento Público (2011)**:
+   - O Kivy foi lançado publicamente em 2011 e ganhou rapidamente popularidade entre os desenvolvedores Python.
+   - Sua capacidade de criar aplicativos para várias plataformas com uma base de código compartilhada atraiu muita atenção na comunidade de desenvolvimento.
 
-if __name__ == '__main__':
-    MyApp().run()
-```
+4. **Adoção e Popularidade (2012-presente)**:
+   - Desde seu lançamento, o Kivy tem sido amplamente adotado por desenvolvedores individuais e empresas para criar uma variedade de aplicativos, incluindo jogos, aplicativos educacionais, ferramentas de produtividade e muito mais.
+   - A crescente popularidade do Python como uma linguagem de programação versátil também contribuiu para o aumento da adoção do Kivy.
 
-Este código cria um aplicativo Kivy com uma janela contendo um único botão que exibe o texto "Olá, Kivy!". Você pode expandir esse exemplo para construir interfaces mais complexas e interativas. 
+5. **Evolução e Versões**:
+   - O Kivy continua a evoluir com lançamentos regulares que trazem novos recursos, melhorias de desempenho e correções de bugs.
+   - Algumas das versões mais significativas incluem o Kivy 1.0 (2012), que marcou a estabilização da API, e o Kivy 2.0 (2021), que introduziu várias melhorias importantes, incluindo suporte a Python 3.9.
 
-# CARACTERÍSTICAS:
-## POSITIVAS:
+## CARACTERÍSTICAS:
+### POSITIVAS:
 - **Multiplataforma:** O Kivy é uma framework Python multiplataforma, oferecendo suporte para Windows, macOS, Linux, Android e iOS.
 
 - **Interface Declarativa:** Utiliza uma linguagem de marcação declarativa chamada KV Language para definir a interface do usuário, o que simplifica o design e a manutenção do código.
@@ -53,7 +55,7 @@ Este código cria um aplicativo Kivy com uma janela contendo um único botão qu
 
 - **Comunidade Ativa:** Possui uma comunidade ativa que contribui para o desenvolvimento contínuo da framework, além de fornecer suporte e recursos adicionais.
 
-## NEGATIVAS:
+### NEGATIVAS:
 - **Curva de Aprendizado:** Para desenvolvedores iniciantes, a curva de aprendizado pode ser íngreme, especialmente ao se acostumar com a KV Language.
 
 - **Aparência Padrão:** A aparência padrão das interfaces Kivy pode parecer menos nativa em comparação com as interfaces específicas de plataforma.
@@ -65,3 +67,10 @@ Este código cria um aplicativo Kivy com uma janela contendo um único botão qu
 - **Desempenho:** Para certos casos de uso intensivo de gráficos, o desempenho pode ser uma consideração, especialmente em comparação com tecnologias nativas.
 
 - **Ecossistema Menos Maduro:** Comparado a algumas alternativas mais antigas, o ecossistema Kivy pode ser considerado menos maduro em termos de ferramentas de terceiros e integrações.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "HASHLDASH"](https://youtube.com/playlist?list=PLsMpSZTgkF5AV1FmALMgW8W-TvrfR3nrs&si=s_Ry13XMexk6nFdS)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://kivy.org/doc/stable/)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PYTHON)
+- [VEJA A SINTAXE](./SINTAXE.md)

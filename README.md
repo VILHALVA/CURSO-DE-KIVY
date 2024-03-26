@@ -74,3 +74,4 @@ Principais conceitos do Kivy:
 - [VEJA A DOCUMENTAÇÃO](https://kivy.org/doc/stable/)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PYTHON)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:KIVY)

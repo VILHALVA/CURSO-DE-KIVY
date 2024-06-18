@@ -1,20 +1,42 @@
 # SINTAXE
-Para criar um projeto usando o framework Kivy, siga estas etapas:
+## ESTRUTURA BÁSICA DE UM PROGRAMA KIVY:
+Aqui está um exemplo simples de um aplicativo Kivy:
 
-### Passo 1: Instalar o Kivy
-Você pode instalar o Kivy e suas dependências usando o pip (gerenciador de pacotes Python). Execute o seguinte comando em seu terminal ou prompt de comando:
+```python
+from kivy.app import App
+from kivy.uix.label import Label
 
-```bash
-pip install kivy
+class MyApp(App):
+    def build(self):
+        return Label(text='Hello, Kivy!')
+
+if __name__ == '__main__':
+    MyApp().run()
 ```
 
-### Passo 2: Configurar o ambiente de desenvolvimento
-Dependendo do seu sistema operacional, pode ser necessário configurar algumas coisas extras, como variáveis de ambiente. No entanto, o Kivy geralmente funciona sem muitas configurações adicionais.
+## COMPONENTES BÁSICOS:
+### LAYOUTS:
+Layouts são fundamentais para organizar widgets na tela. Alguns dos layouts mais usados são `BoxLayout`, `GridLayout` e `FloatLayout`.
 
-### Passo 3: Criar o código do aplicativo
-Agora você pode começar a escrever seu aplicativo usando a sintaxe do Kivy. Aqui está um exemplo básico para começar:
+```python
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.button import Button
 
-Crie um arquivo chamado `main.py`:
+class MyApp(App):
+    def build(self):
+        layout = BoxLayout(orientation='vertical')
+        layout.add_widget(Button(text='Button 1'))
+        layout.add_widget(Button(text='Button 2'))
+        layout.add_widget(Button(text='Button 3'))
+        return layout
+
+if __name__ == '__main__':
+    MyApp().run()
+```
+
+### WIDGETS:
+Widgets são os componentes visuais que compõem a interface do usuário.
 
 ```python
 from kivy.app import App
@@ -22,25 +44,57 @@ from kivy.uix.button import Button
 
 class MyApp(App):
     def build(self):
-        return Button(text='Hello Kivy')
+        return Button(text='Click Me')
 
 if __name__ == '__main__':
     MyApp().run()
 ```
 
-Este é um aplicativo simples que exibe um botão com o texto "Hello Kivy".
+## ARQUIVO KV:
+Kivy permite separar a lógica da interface utilizando arquivos `.kv`. Aqui está um exemplo:
 
-### Passo 4: Executar o aplicativo
-Para executar o aplicativo, basta executar o arquivo Python que você criou:
-
-```bash
-python main.py
+### MYAPP.KV:
+```kv
+BoxLayout:
+    orientation: 'vertical'
+    Button:
+        text: 'Button 1'
+    Button:
+        text: 'Button 2'
+    Button:
+        text: 'Button 3'
 ```
 
-Isso abrirá uma janela com o botão "Hello Kivy".
+### MAIN.PY:
+```python
+from kivy.app import App
 
-### Passo 5: Desenvolver seu aplicativo
-A partir daqui, você pode começar a desenvolver seu aplicativo, adicionando mais widgets, lógica e estilo usando a sintaxe do Kivy.
+class MyApp(App):
+    pass
 
-O Kivy possui uma documentação detalhada e muitos exemplos para ajudá-lo a entender melhor como desenvolver aplicativos com ele. Certifique-se de explorar a documentação oficial: [Documentação do Kivy](https://kivy.org/doc/stable/).
+if __name__ == '__main__':
+    MyApp().run()
+```
+
+## MANIPULAÇÃO DE EVENTOS:
+Eventos são cruciais para interatividade. Você pode adicionar eventos a widgets de forma simples:
+
+```python
+from kivy.app import App
+from kivy.uix.button import Button
+
+class MyApp(App):
+    def build(self):
+        button = Button(text='Click Me')
+        button.bind(on_press=self.on_button_press)
+        return button
+
+    def on_button_press(self, instance):
+        print('Button clicked!')
+
+if __name__ == '__main__':
+    MyApp().run()
+```
+
+
 
